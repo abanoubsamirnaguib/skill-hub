@@ -64,11 +64,11 @@
 								   <li class="dropdown">
 									   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 										   aria-expanded="false">Categories <span class="caret"></span></a>
-									   <ul class="dropdown-menu">
+									   {{-- <ul class="dropdown-menu">
 										   @foreach ($cats as $cat)
 										   <li><a href="{{ url('SkillsHub/category/show', [$cat->id] ) }}">{{$cat->name}}</a></li>
 										   @endforeach
-									   </ul>
+									   </ul> --}}
 								   </li>
 								   <li><a href="{{ url('/SkillsHub/contact', []) }} ">Contact</a></li>
 			   
