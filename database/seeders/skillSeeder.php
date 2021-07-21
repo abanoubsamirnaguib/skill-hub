@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use  App\Models\skill;
+use  App\Models\Skill;
 
 class skillSeeder extends Seeder
 {
@@ -62,7 +62,7 @@ class skillSeeder extends Seeder
     public function run()
     {
         foreach( $this->skills as $skill){
-            $cat= new skill($skill);
+            $cat= new Skill($skill);
             $cat->save();
         }
     }
