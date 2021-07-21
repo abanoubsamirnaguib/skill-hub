@@ -47,6 +47,11 @@ Route::get('/email/verification-notification', function (Request $request) {
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/SkillsHubMaster', function () {
+    return view('master.master');
+});
+
 Route::get('/SkillsHub', [skillController::class,'master']);
 Route::get('/SkillsHub/home',[skillController::class,'home']);
 
