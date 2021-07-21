@@ -17,9 +17,11 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         $this->call([
-            // catSeeder::class,
-            // skillSeeder::class,
+            catSeeder::class,
+            skillSeeder::class,
             questionSeeder::class,
+            settingSeeder::class,
+            examsSeeder::class,
         ]);
     }
 }
