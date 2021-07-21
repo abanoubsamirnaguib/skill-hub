@@ -23,7 +23,7 @@ class skillController extends Controller
          $cats=Cat::get("name");
         $skills=Skill::get();
 
-        // event(new SentNotification);
+        event(new SentNotification);
 
         return view('pages.home',["skills"=>$skills ,'cats' => $cats ]);
     }
