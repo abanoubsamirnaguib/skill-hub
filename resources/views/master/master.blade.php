@@ -55,7 +55,7 @@
 			</div>
 
 
-			<x-navComponent></x-navComponent>
+			{{-- <x-navComponent></x-navComponent> --}}
 
 
 			<!-- Navigation -->
@@ -127,7 +127,7 @@
 	@show
 
 	@section('footer')
-	<x-footerComponent></x-footerComponent>
+	{{-- <x-footerComponent></x-footerComponent> --}}
 	@show
 	<!-- preloader -->
 	<div id='preloader'>
