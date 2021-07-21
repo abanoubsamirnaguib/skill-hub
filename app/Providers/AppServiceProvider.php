@@ -7,6 +7,8 @@ use Illuminate\Pagination\paginator;
 
 // use Illuminate\Http\Resources\Json\JsonResource;
 
+use  App\View\Components\footerComponent;
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -30,5 +32,7 @@ class AppServiceProvider extends ServiceProvider
         paginator::useBootstrap();
 
         // JsonResource::withoutWrapping();
+
+        Blade::component('resources\views\components\footer-component', footerComponent::class);
     }
 }

@@ -162,7 +162,7 @@
 	@show
 
 	@section('footer')
-	{{-- <x-footerComponent></x-footerComponent> --}}
+	<x-footerComponent></x-footerComponent>
 	@show
 	<!-- preloader -->
 	<div id='preloader'>
