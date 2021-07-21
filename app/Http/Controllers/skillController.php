@@ -14,7 +14,7 @@ use App\Events\SentNotification;
 
 use Carbon\Carbon;
 
-use  App\View\Components\navComponent;
+// use  App\View\Components\navComponent;
 
 class skillController extends Controller
 {
