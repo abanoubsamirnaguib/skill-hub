@@ -55,7 +55,9 @@
 			</div>
 
 
-			<x-navComponent></x-navComponent>
+			{{-- <x-navComponent></x-navComponent> --}}
+
+
 			<!-- Navigation -->
 			{{-- <nav id="nav">
 				<ul class="main-menu nav navbar-nav navbar-right">
@@ -125,7 +127,7 @@
 	@show
 
 	@section('footer')
-	<x-footerComponent></x-footerComponent>
+	{{-- <x-footerComponent></x-footerComponent> --}}
 	@show
 	<!-- preloader -->
 	<div id='preloader'>
