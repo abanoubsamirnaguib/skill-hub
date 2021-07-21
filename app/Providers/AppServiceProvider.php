@@ -33,6 +33,6 @@ class AppServiceProvider extends ServiceProvider
 
         // JsonResource::withoutWrapping();
 
-        \Blade::component('components.footer-component', footerComponent::class);
+        \Blade::component('footer-component', footerComponent::class);
     }
 }
