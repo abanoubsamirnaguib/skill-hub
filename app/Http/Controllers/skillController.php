@@ -29,7 +29,8 @@ class skillController extends Controller
     }
     function master()
     {
-        return view('master.master');
+         $cats=Cat::get();
+        return view('master.master',['cats' => $cats ]);
     }
     function FillContact(REQUEST $request)
     {
