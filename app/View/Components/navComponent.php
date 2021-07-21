@@ -26,7 +26,9 @@ class navComponent extends Component
     {
         
         $cats=cat::select("name", "id")->Active()->get();
-        return view('components.nav-component', ['cats' => $cats]);
+        return view('components.nav-component'
+        // , ['cats' => $cats]
+    );
     }
 
 }
