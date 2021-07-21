@@ -3,12 +3,12 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use  App\Models\skill;
 use Database\Seeders\skillSeeder;
 use Database\Seeders\questionSeeder;
 use Database\Seeders\settingSeeder;
 use Database\Seeders\catSeeder;
 use Database\Seeders\examsSeeder;
+// use  App\Models\skill;
 
 class DatabaseSeeder extends Seeder
 {
