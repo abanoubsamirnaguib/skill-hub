@@ -53,7 +53,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://skills-hub-abanoub.herokuapp.com/'),
+    'url' => env('APP_URL', 'http://skills-hub-abanoub.herokuapp.com'),
 
     'asset_url' => env('ASSET_URL', null),
 
