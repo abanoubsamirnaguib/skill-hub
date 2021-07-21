@@ -3,7 +3,7 @@
 namespace App\View\Components;
 
 use Illuminate\View\Component;
-use  App\Models\cat;
+use  App\Models\Cat;
 
 class navComponent extends Component
 {
@@ -25,7 +25,7 @@ class navComponent extends Component
     public function render()
     {
         
-        $cats=cat::select("name", "id")->Active()->get();
+        $cats=Cat::select("name", "id")->Active()->get();
         return view('components.nav-Component'
         , ['cats' => $cats]
     );

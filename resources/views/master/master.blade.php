@@ -55,7 +55,7 @@
 			</div>
 
 
-			{{-- <x-navComponent></x-navComponent> --}}
+			<x-navComponent></x-navComponent>
 
 
 			<!-- Navigation -->
