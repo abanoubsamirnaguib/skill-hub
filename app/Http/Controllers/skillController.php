@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use  App\Models\skill;
-use  App\Models\cat;
+use  App\Models\Skill;
+use  App\Models\Cat;
 use App\Models\Exam;
 use  App\Models\Message;
 use App\Models\Question;
@@ -20,8 +20,8 @@ class skillController extends Controller
 {
      function home()
     {  
-         $cats=cat::get("name");
-        $skills=skill::get();
+         $cats=Cat::get("name");
+        $skills=Skill::get();
 
         event(new SentNotification);
 
@@ -49,13 +49,13 @@ class skillController extends Controller
     }
     function category($id)
     {
-        $cats=cat::findOrFail($id);
+        $cats=Cat::findOrFail($id);
         $skills=$cats->skills()->paginate(1);
         return view('pages.category', ['cats'=>$cats, "skills"=>$skills]);
     }
     function skill($id)
     {
-        $skills=skill::findOrFail($id);
+        $skills=Skill::findOrFail($id);
         $exams=$skills->exams()->paginate(3);
         return view('pages.skills' , ['skills'=>$skills,'exams'=>$exams]);
     }
