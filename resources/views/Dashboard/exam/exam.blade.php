@@ -136,7 +136,7 @@
 
 @section('script')
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
 <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
   <script>
@@ -153,6 +153,6 @@
     //   alert(JSON.stringify(data));
       toastr.success('Have fun storming the castle!')
     });
-  </script>
+  </script> --}}
 
 @endsection

@@ -247,7 +247,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script> 
 
-<script src="https://js.pusher.com/7.0/pusher.min.js"></script>
+{{-- <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
   <script>
    
     // Enable pusher logging - don't include this in production
@@ -265,6 +265,6 @@
      console.log("h");
      
     });
-  </script>
+  </script> --}}
 
 @endsection
