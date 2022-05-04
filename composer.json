@@ -16,7 +16,7 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.2",
-        "pusher/pusher-php-server": "^5.0",
+        
         "qcod/laravel-imageup": "^1.1"
     },
     "require-dev": {
