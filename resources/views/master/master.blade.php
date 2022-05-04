@@ -55,20 +55,20 @@
 			</div>
 
 
-			{{-- <x-navComponent></x-navComponent> --}}
+			<x-navComponent></x-navComponent>
 
-			<div class="nav-dark">
+			{{-- <div class="nav-dark">
 				<nav id="nav">
 							   <ul class="main-menu nav navbar-nav navbar-right">
 								   <li><a href="{{ url('/SkillsHub/home', []) }}">Home</a></li>
 								   <li class="dropdown">
 									   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 										   aria-expanded="false">Categories <span class="caret"></span></a>
-									   {{-- <ul class="dropdown-menu">
+									   <ul class="dropdown-menu">
 										   @foreach ($cats as $cat)
 										   <li><a href="{{ url('SkillsHub/category/show', [$cat->id] ) }}">{{$cat->name}}</a></li>
 										   @endforeach
-									   </ul> --}}
+									   </ul>
 								   </li>
 								   <li><a href="{{ url('/SkillsHub/contact', []) }} ">Contact</a></li>
 			   
@@ -90,7 +90,7 @@
 			   
 							   </ul>
 						   </nav>
-			   </div>
+			   </div> --}}
 
 
 			<!-- Navigation -->
