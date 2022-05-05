@@ -55,7 +55,7 @@
 			</div>
 
 
-			<x-navComponent></x-navComponent>
+			<x-nav-Component></x-nav-Component>
 
 			{{-- <div class="nav-dark">
 				<nav id="nav">
